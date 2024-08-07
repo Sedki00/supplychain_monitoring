@@ -17,4 +17,8 @@ export class AppService implements OnModuleInit {
     //Handle data change
   }
 
-}
+    getHello(): string {
+      return 'Hello World!';
+    }
+  }
+  
